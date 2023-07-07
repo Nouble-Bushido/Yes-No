@@ -17,6 +17,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+    getAnswerButton.layer.cornerRadius = 8
+                labelHidden()
     
     }
     
