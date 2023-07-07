@@ -22,5 +22,11 @@ class ViewController: UIViewController {
     
     @IBAction func pressButton(_ sender: Any) {
     }
-
+    
+    
+    func labelHidden() {
+           yesLabel.isHidden = true
+           noLabel.isHidden = true
+           noAnswerLabel.isHidden = true
+       }
 }
