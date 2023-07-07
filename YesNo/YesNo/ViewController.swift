@@ -25,6 +25,24 @@ class ViewController: UIViewController {
     @IBAction func pressButton(_ sender: Any) {
     }
     
+    func hideLabels(completion: @escaping () -> Void) {
+            UIView.animate(withDuration: 0.3, animations: {
+                self.yesLabel.alpha = 0
+                self.noLabel.alpha = 0
+                self.noAnswerLabel.alpha = 0
+                self.getAnswerButton.tintColor = .blue
+            }, completion: { _ in
+                self.labelHidden()
+                UIView.animate(withDuration: 0.3, animations: {
+                    self.yesLabel.alpha = 1
+                    self.noLabel.alpha = 1
+                    self.noAnswerLabel.alpha = 1
+                    self.getAnswerButton.tintColor = .white
+                }, completion: { _ in
+                    completion()
+                })
+            })
+        }
     
     func labelHidden() {
            yesLabel.isHidden = true
