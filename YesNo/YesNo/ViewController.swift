@@ -19,7 +19,6 @@ class ViewController: UIViewController {
         
         getAnswerButton.layer.cornerRadius = 8
         labelHidden()
-        
     }
     
     @IBAction func pressButton(_ sender: Any) {
