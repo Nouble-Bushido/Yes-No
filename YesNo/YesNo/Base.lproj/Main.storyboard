@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="YesNo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HugeDomains_com" translatesAutoresizingMaskIntoConstraints="NO" id="fdm-ec-q95">
+                                <rect key="frame" x="46.666666666666657" y="249" width="300" height="379"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="eSh-w2-8CZ"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nua-XY-bRl">
+                                <rect key="frame" x="226.00000000000003" y="749.66666666666663" width="110.33333333333334" height="34.333333333333371"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34.329999999999998" id="AcF-57-pog"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Get answer"/>
+                                <connections>
+                                    <action selector="pressButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="13o-fb-DDu"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yes, definitely!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8te-nx-odL">
+                                <rect key="frame" x="191" y="399" width="126.66666666666669" height="23"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Not sure, the decision is up to you!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uDY-Qv-VFj">
+                                <rect key="frame" x="56" y="261" width="280" height="37"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't do it!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJ3-AH-dSe">
+                                <rect key="frame" x="64" y="453" width="193" height="23"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="19"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="uDY-Qv-VFj" firstAttribute="height" secondItem="fdm-ec-q95" secondAttribute="height" multiplier="0.055409" constant="16" id="0wd-Wh-c0Y"/>
+                            <constraint firstItem="fdm-ec-q95" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="5uy-DO-dou"/>
+                            <constraint firstItem="fdm-ec-q95" firstAttribute="top" secondItem="8te-nx-odL" secondAttribute="bottom" constant="-173" id="C8g-m1-uaH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="uDY-Qv-VFj" secondAttribute="trailing" symbolic="YES" id="R9M-4b-moh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nua-XY-bRl" secondAttribute="bottom" constant="34" id="Wlx-q2-iCv"/>
+                            <constraint firstItem="uDY-Qv-VFj" firstAttribute="width" secondItem="fdm-ec-q95" secondAttribute="width" multiplier="0.566667" constant="110" id="Yae-Gu-l9X"/>
+                            <constraint firstItem="uDY-Qv-VFj" firstAttribute="top" secondItem="fdm-ec-q95" secondAttribute="top" constant="12" id="b4u-EE-h1Z"/>
+                            <constraint firstItem="fdm-ec-q95" firstAttribute="leading" secondItem="hJ3-AH-dSe" secondAttribute="trailing" constant="-210.33333333333334" id="beG-FT-RR0"/>
+                            <constraint firstItem="uDY-Qv-VFj" firstAttribute="leading" secondItem="fdm-ec-q95" secondAttribute="trailing" constant="-290.66666666666663" id="fhp-4k-sek"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="8te-nx-odL" secondAttribute="trailing" symbolic="YES" id="lPl-0o-Elr"/>
+                            <constraint firstItem="hJ3-AH-dSe" firstAttribute="leading" secondItem="fdm-ec-q95" secondAttribute="leading" constant="17.333333333333343" id="qh7-I3-5ny"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nua-XY-bRl" secondAttribute="trailing" constant="56.670000000000002" id="r6j-IM-tUv"/>
+                            <constraint firstItem="fdm-ec-q95" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="tRq-a1-1D5"/>
+                            <constraint firstItem="hJ3-AH-dSe" firstAttribute="top" secondItem="fdm-ec-q95" secondAttribute="bottom" constant="-175" id="uNr-gy-snz"/>
+                            <constraint firstItem="nua-XY-bRl" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" symbolic="YES" id="uci-z4-s4H"/>
+                            <constraint firstItem="8te-nx-odL" firstAttribute="leading" secondItem="fdm-ec-q95" secondAttribute="trailing" constant="-155.66666666666663" id="uu3-gA-eH3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="getAnswerButton" destination="nua-XY-bRl" id="Ioy-tS-ujY"/>
+                        <outlet property="imageView" destination="fdm-ec-q95" id="wXv-61-EYE"/>
+                        <outlet property="noAnswerLabel" destination="uDY-Qv-VFj" id="tI5-Ze-yBO"/>
+                        <outlet property="noLabel" destination="hJ3-AH-dSe" id="kjv-kC-6FT"/>
+                        <outlet property="yesLabel" destination="8te-nx-odL" id="5Po-TB-cV4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="46.564885496183201" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="HugeDomains_com" width="216.66667175292969" height="378.66665649414062"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
