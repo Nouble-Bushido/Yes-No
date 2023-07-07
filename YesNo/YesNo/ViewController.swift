@@ -23,6 +23,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func pressButton(_ sender: Any) {
+        let numbers = [1, 2, 3]
+                let randomIndex = Int.random(in: 0..<numbers.count)
+                let answer = numbers[randomIndex]
     }
     
     func hideLabels(completion: @escaping () -> Void) {
