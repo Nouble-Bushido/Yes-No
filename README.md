@@ -21,12 +21,12 @@ Run the application on the simulator or connect a device.
 Press the "Run" button in Xcode or use the Command+R shortcut to build and run the application.
 Author
 
-Artem Chosen
+Artem Chzhen
 
 Contact
 
 Email: artchzhen@gmail.com
-Telegram: @NoubleBushido
+Telegram: @ArtChzhen
 ![Simulator Screenshot - iPhone 14 Pro - 2023-07-07 at 12 25 46](https://github.com/Artem-Chzh/Yes-No/assets/117162015/f576d87a-29ff-47e9-a596-e8ce084dd2df)
 ![Simulator Screenshot - iPhone 14 Pro - 2023-07-07 at 12 25 43](https://github.com/Artem-Chzh/Yes-No/assets/117162015/b033a34d-17b1-4330-bb84-0956d0249067)
 ![Simulator Screenshot - iPhone 14 Pro - 2023-07-07 at 12 25 40](https://github.com/Artem-Chzh/Yes-No/assets/117162015/eb01014e-9404-4bae-9c35-01391e79ddaf)
