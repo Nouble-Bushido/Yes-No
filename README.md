@@ -24,8 +24,11 @@ Author
 Artem Chzhen
 
 Contact:
+
 [LinkedIn](https://www.linkedin.com/in/artem-chzhen-2926b7264/)
+
 [artchzhen@gmail.com](mailto:artchzhen@gmail.com)
+
 [@ArtChzhen](https://t.me/ArtChzhen).
 
 ![Simulator Screenshot - iPhone 14 Pro - 2023-07-07 at 12 25 46](https://github.com/Artem-Chzh/Yes-No/assets/117162015/f576d87a-29ff-47e9-a596-e8ce084dd2df)
