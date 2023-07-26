@@ -22,6 +22,7 @@ Press the "Run" button in Xcode or use the Command+R shortcut to build and run t
 Author
 
 Artem Chzhen
+
 Contact:
 [LinkedIn](https://www.linkedin.com/in/artem-chzhen-2926b7264/)
 [artchzhen@gmail.com](mailto:artchzhen@gmail.com)
